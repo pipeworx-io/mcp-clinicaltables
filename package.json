@@ -1,18 +1,25 @@
 {
   "name": "@pipeworx/mcp-clinicaltables",
   "version": "0.1.0",
-  "description": "NIH Clinical Tables: ICD-10/9, RxTerms, LOINC, NPI, conditions search. Keyless.",
+  "description": "NIH Clinical Tables Search Service MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-clinicaltables": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "clinicaltables"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-clinicaltables"
+    "url": "git+https://github.com/pipeworx-io/mcp-clinicaltables.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
   },
   "devDependencies": {
     "typescript": "^5.7.0"
