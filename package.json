@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-clinicaltables",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "NIH Clinical Tables Search Service MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "clinicaltables",
     "gatewaySlug": "clinicaltables",
-    "sourceHash": "v1-bed91a443f3fe7ef6610f81ef856c886795f33911bd753a08adc5adb5088cdc8",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-6207f3b06664fb4842500bd7a7e4f9efbe98b0e1792629428d82c441bc6bf7ce",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
